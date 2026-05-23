@@ -1,0 +1,9 @@
+services:
+    web:
+        container_name: web
+        build: .
+        restart: unless-stopped
+        ports:
+          - 8000:80
+        volumes:
+          - .:/usr/src/app
