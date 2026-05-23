@@ -4,6 +4,6 @@ services:
         build: .
         restart: unless-stopped
         ports:
-          - 8000:80
+          - 8001:80
         volumes:
           - .:/usr/src/app

@@ -1,19 +1,4 @@
 {
-    "phpunit/phpunit": {
-        "version": "13.1",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "11.1",
-            "ref": "ca0bc067abfb40a8de1b2561b96cbfc2b833c314"
-        },
-        "files": [
-            ".env.test",
-            "phpunit.dist.xml",
-            "tests/bootstrap.php",
-            "bin/phpunit"
-        ]
-    },
     "symfony/console": {
         "version": "7.4",
         "recipe": {
@@ -24,18 +9,6 @@
         },
         "files": [
             "bin/console"
-        ]
-    },
-    "symfony/debug-bundle": {
-        "version": "7.4",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "5.3",
-            "ref": "5aa8aa48234c8eb6dbdd7b3cd5d791485d2cec4b"
-        },
-        "files": [
-            "config/packages/debug.yaml"
         ]
     },
     "symfony/flex": {
@@ -70,15 +43,6 @@
             "src/Kernel.php",
             ".editorconfig"
         ]
-    },
-    "symfony/maker-bundle": {
-        "version": "1.67",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "1.0",
-            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
-        }
     },
     "symfony/routing": {
         "version": "7.4",
